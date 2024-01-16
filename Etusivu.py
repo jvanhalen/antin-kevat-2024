@@ -1,8 +1,12 @@
----
-title: Etusivu
-permalink: /
----
+import streamlit as st
 
+st.set_page_config(
+    page_title="Tietokantojen perusteet (5 ECTS)",
+    page_icon="👋",
+    layout="wide"
+)
+
+st.markdown("""
 # Tietokantojen perusteet, kevät 2024
 
 _Tietokantojen perusteet_ on 5 op laajuinen tietojenkäsittelytieteen perusopintokurssi, joka esittelee suurten tietomäärien käsittelyyn liittyviä tekniikoita ja haasteita. Tutustumme kurssilla relaatiotietokantoihin ja niihin liittyvään SQL-kieleen.
@@ -27,4 +31,5 @@ Kaikilla suorituksilla on yhteinen deadline su 10.3.2024 klo 23:59.
 
 ## Yhteystiedot
 
-Kurssin luennoija keväällä 2024 on Antti Laaksonen. Voit ottaa yhteyttä lähettämällä [sähköpostia](mailto:ahslaaks@cs.helsinki.fi) tai viestin Discordissa.
+Kurssin luennoija keväällä 2024 on Antti Laaksonen. Voit ottaa yhteyttä lähettämällä [sähköpostia](mailto:ahslaaks@cs.helsinki.fi) tai viestin Discordissa.   
+""")

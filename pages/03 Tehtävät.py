@@ -1,8 +1,14 @@
----
-title: Tehtävät
-permalink: /tehtavat
----
+import streamlit as st
+import streamlit.components.v1 as components
 
+st.set_page_config(
+    page_title="Tehtävät",
+    page_icon="👋",
+    layout="wide"
+)
+
+st.markdown(
+"""
 # Tehtävät
 
 Kurssi suoritetaan ratkomalla SQL-tehtäviä ja Tasks-tehtäviä. Molemmat osasuoritukset tehdään itsenäisesti kurssin materiaalin ja muiden lähteiden avulla. Kurssilla ei ole sallittua palauttaa toisen henkilön tai tekoälyn antamia vastauksia.
@@ -21,10 +27,10 @@ Tehtävät 1–20 liittyvät materiaalin lukuun 2, tehtävät 21–40 liittyvät
 
 Tasks-tehtävät julkaistaan tammikuun loppuun mennessä.
 
-<!--
-Kurssin muut tehtävät palautetaan [Tasks](https://tasks.withmooc.fi/tikape-syksy-2023)-järjestelmään. Näet jokaisessa tehtävässä, montako pistettä saat tehtävästä.
 
-Kun lähetät vastauksen, saat automaattisesti pisteet tehtävästä. Kurssin henkilökunta käy läpi tehtävät kurssin jälkeen, mutta pisteesi eivät muutu, ellet ole tahallisesti kiertänyt automaattista tarkastusta.
+""")
 
-Viimeisessä tehtävässä on ohjeet kurssisuorituksen rekisteröintiin, ja voit tarkastaa kurssin pistetilanteen sekä antaa kurssipalautteen.
--->
+
+#Kurssin muut tehtävät palautetaan [Tasks](https://tasks.withmooc.fi/tikape-syksy-2023)-järjestelmään. Näet jokaisessa tehtävässä, montako pistettä saat tehtävästä.
+#Kun lähetät vastauksen, saat automaattisesti pisteet tehtävästä. Kurssin henkilökunta käy läpi tehtävät kurssin jälkeen, mutta pisteesi eivät muutu, ellet ole tahallisesti kiertänyt automaattista tarkastusta.
+#Viimeisessä tehtävässä on ohjeet kurssisuorituksen rekisteröintiin, ja voit tarkastaa kurssin pistetilanteen sekä antaa kurssipalautteen.
