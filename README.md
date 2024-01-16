@@ -16,10 +16,10 @@ Deployment is possible in [Streamlit Cloud(https://blog.streamlit.io/host-your-s
 
 ```shell
 # build container
-docker build -t courses/tikapeK24 .
+docker build -t courses/tikapek24 .
 
 # run container, map local dir to container for quicker dev-time code change reloads
-docker run --name tikape-kevat-2024 -it -v `pwd`:/app courses/tikapeK24 sh -c "streamlit run Etusivu.py"
+docker run --name tikape-kevat-2024 -it -v `pwd`:/app courses/tikapek24 sh -c "streamlit run Etusivu.py"
 ```
 
 Connect to http://localhost:8051
